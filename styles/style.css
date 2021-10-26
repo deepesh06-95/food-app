@@ -1,0 +1,76 @@
+#navbar{
+
+    display: flex;
+    justify-content: space-between;
+    padding-left: 4%;
+    padding-right: 4%;
+   
+
+}
+#options{
+       display: flex;
+       justify-content: space-between;
+}
+#options h3{
+    padding-left: 30px;
+    padding-right: 10px;
+}
+img{
+    width:100%;
+    
+}
+#container{
+display: grid;
+grid-template-columns: 55% 40%;
+grid-gap: 10px;
+justify-content:center;
+padding: 1%;
+}
+
+#container>div:hover{
+    border: 2px solid white;
+    padding: 0.5%;
+    background-color: #90A4AE;
+    color: white;
+   
+}
+#container>img:hover{
+    border: 2px solid white;
+    padding: 0.5%;
+    background-color: #90A4AE;
+
+   
+}
+#container1{
+    margin: 3%;
+    background-color: #90A4AE;
+    color: white;
+
+}
+h1{
+    text-align: center;
+
+}
+input{
+    height: 50%;
+    margin-top: 5%;   
+    width: 70%;
+    border: none;
+    outline: none;
+}
+button
+    {
+        height: 60%;
+        margin-top: 5%;
+        background-color: gray;  
+        color: white ;
+        border: none;
+       outline: none;
+    }
+body{
+    background-image: url("https://www.jqueryscript.net/images/HTML5-Video-Background-Plugin-With-jQuery-covervid.jpg");
+}
+a{
+    color: gray;
+    text-decoration: none;
+}

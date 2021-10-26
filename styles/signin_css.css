@@ -1,0 +1,28 @@
+body{
+    background-image: url("https://www.jqueryscript.net/images/HTML5-Video-Background-Plugin-With-jQuery-covervid.jpg");
+}
+#signup-form,#login-form{
+    width:50px;
+}
+input{
+    margin: 5px 0;
+    width: 520px;
+    height: 30px;
+    border: none;
+    outline: none;
+    background-color: #D4E157;
+    font-weight: 600;  
+}
+#forms{
+    display: flex;
+}
+#space{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    grid-gap: 10%;
+    justify-content: center;
+}
+h1{
+    text-align: center;
+    color: gray;
+}
